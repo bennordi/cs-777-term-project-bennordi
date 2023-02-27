@@ -59,10 +59,10 @@ def get_metrics(cm):
 		N/A - prints out results
 		
 	"""
-	tp = cm[0][0]
+	tp = cm[1][1]
 	fp = cm[0][1]
 	fn = cm[1][0]
-	tn = cm[1][1]
+	tn = cm[0][0]
 
 	try:
 		accuracy = (tp + tn) / (tp + fp + fn + tn)
