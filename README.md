@@ -34,7 +34,7 @@ This is a simple classification dataset, which we will leverage PySpark and vari
 
 This data will be split into training and test sets (70/30 split) and will be seeded for consistency of the split. The classification models will be trained on the same exact training data and will be tested with the same test dataset. Then during the results, I can do some anecdotal tests for messages I create to test out our models.
 
-## Machine Learning Model(s)
+## Machine Learning Models
 Used 6 different machine learning models from PySpark's MLlib library, and fit the model with our training dataset, predicted on our test dataset. Output of my local machine run can be found on [output.md](output.md).
 
 - Logistic Regression
@@ -44,7 +44,4 @@ Used 6 different machine learning models from PySpark's MLlib library, and fit t
 - Gradient-Boosted Tree classifier (GBT)
 - Random Forest Classifier
 
-## Results
-
 ## Conclusion
-
