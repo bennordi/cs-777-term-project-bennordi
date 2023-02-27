@@ -9,6 +9,14 @@ From there, run the following command and the data will be pulled successfully a
 python3 noriega_termproject.py spam.csv
 ```
 
+Make sure the spacy module is installed. In case you encounter an error regarding the `en_core_web_sm` model, run the following command:
+
+```bash
+python3 -m spacy download en_core_web_sm
+```
+
+Once this is installed, running the script command should run successfully.
+
 ## Dataset
 CSV file found on Kaggle under [Spam Text Message Classification](https://www.kaggle.com/datasets/team-ai/spam-text-message-classification).
 
