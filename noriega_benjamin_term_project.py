@@ -50,7 +50,7 @@ def lemmatize_text(text):
 def get_metrics(cm):
 	"""
 	Calculates and prints out performance metrics for the predictions made.
-	Taken from my assignment 5 submission.
+	Taken from my assignment 5 submission, added accuracy metric calculation.
 
 	Params:
 		cm - ndarray - represents confusion matrix
